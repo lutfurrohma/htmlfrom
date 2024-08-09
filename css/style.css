@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+}
+/* nave ver css start */
+header{
+    width: 100%;
+    background: url(../img/banner.png) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar .navbar-brand img{
+    width: 140px !important;
+}
+.navbar .nav-item .nav-link{
+    color: white;
+}
+/* bennar part code start */
+.cus-height{
+    height: 90vh;
+}
+.banner-part .content h5{
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.banner-part .content h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.banner-part .content p{
+    color: #fff;
+    line-height: 26px;
+    margin: 20px 0 58px 0;
+    width: 87%;
+}
+.banner-part .content .bennar-btns a{
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-right: 15px;
+}
+.banner-part .content .bennar-btns .btn-primary{
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    transition: 0.7s;
+}
+.banner-part .content .bennar-btns .btn-primary:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    transition: 0.7s;
+}
+.banner-part .content .bennar-btns .btn-info{
+    background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    transition: 0.7s;
+
+}
+.banner-part .content .bennar-btns .btn-info:hover{
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    transition: 0.7s;
+}
+/* feature code css */
+.feature{
+    width: 100%;
+    padding: 50px 0;
+    border-bottom: 1px solid #999;
+}
+.feature h6{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+.feature h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.feature .underline{
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    border-bottom: 3px solid #578bd1;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+    
+}
+.feature .content i{
+    border: 2px solid rgb(214, 214, 214);
+    border-radius: 50%;
+    color: #008ed6;
+    background: white !important;
+    padding-top: 26px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    width: 88px;
+    height: 88px;
+} 
+.feature .content h5{
+    font-size: 22px;
+    color: #1a1a1a;
+}
+.feature .content p{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #999999;
+    width: 85%;
+}
+/* beautyful-section css */
+.beautyfull-section{
+    width: 100%;
+    padding: 60px 0;
+}
+.beautyfull-section .b-inner h6{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+    margin-top: 50px;
+}
+.beautyfull-section .b-inner h2{
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+.beautyfull-section .b-inner .underline{
+    margin-left: 0;
+    margin-right: 0;
+    width: 10%;
+    border-bottom: 3px solid #578bd1;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    transition: 0.5s;
+}
+.beautyfull-section .b-inner p{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #999999;
+    width: 85%;
+} 
+.beautyfull-section .b-inner ul{
+    margin: 30px 0 0px;
+    padding: 0;
+
+}
+.beautyfull-section .b-inner ul li{
+    list-style-type: none;
+    margin-bottom: 6px;
+
+}
+.beautyfull-section .b-inner ul li i{
+    color: #008ed6;
+    margin-right: 10px;
+}
+/* super-section css */
+.super-section{
+    width: 100%;
+    padding: 50px 0;
+    background: #f2f2f2;
+}
+.super-section .s-inner h6{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+    margin-top: 50px;
+}
+.super-section .s-inner h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.super-section .s-inner .underline{
+    margin-left: 0;
+    margin-right: 0;
+    width: 10%;
+    border-bottom: 3px solid #578bd1;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    transition: 0.5s;
+}
+.super-section .s-inner p{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #999999;
+    width: 85%;
+}
+.super-section .row img{
+    margin-left: -60px;
+}
